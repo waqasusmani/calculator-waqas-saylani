@@ -13,7 +13,8 @@ text-align: center;
 }
 
 #entry {
-    width: 17rem;
+    margin-top: 10vh;
+    width: 18rem;
     height: 3rem;
     font-size: large;
 }
@@ -61,7 +62,7 @@ button {
     }
     
     #entry {
-        width: 13rem;
+        width: 13.75rem;
         height: 1.5rem;
         font-size: large;
     }
@@ -87,8 +88,8 @@ button {
     }
     
     button {
-        width: 1.75rem;
-        height: 1.75rem;
+        width: 3.25rem;
+        height: 3.25rem;
         margin: 5px;
     }
     
