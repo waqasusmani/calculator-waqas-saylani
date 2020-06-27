@@ -1,0 +1,98 @@
+h2 {
+text-align: center;
+}
+
+#main {
+    width: 25rem;
+    height: 80vh;
+    border: 1px solid grey;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#entry {
+    width: 17rem;
+    height: 3rem;
+    font-size: large;
+}
+
+#resultdiv {
+    margin-left: auto;
+    margin-right: auto;
+    width: 18rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#resultText {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: large;
+}
+
+#result {
+    width: 8rem;
+    height: 3rem;
+    font-size: larger;
+}
+
+button {
+    width: 3.8rem;
+    height: 3.8rem;
+    margin: 5px;
+}
+
+#zero {
+    width: 8.5rem;
+}
+
+
+@media (max-width:449px) {
+    #main {
+        width: 17.5rem;
+        height: 80vh;
+        border: 1px solid grey;
+        border-radius: 15px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #entry {
+        width: 13rem;
+        height: 1.5rem;
+        font-size: large;
+    }
+    
+    #resultdiv {
+        margin-left: auto;
+        margin-right: auto;
+        width: 14rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #resultText {
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: large;
+    }
+    
+    #result {
+        width: 5rem;
+        height: 1.5rem;
+        font-size: larger;
+    }
+    
+    button {
+        width: 1.75rem;
+        height: 1.75rem;
+        margin: 5px;
+    }
+    
+    #zero {
+        width: 7.25rem;
+    }
+}
