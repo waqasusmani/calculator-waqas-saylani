@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded",function(){
     document.querySelector("#result").value="";
 })
 
-var entrySting="0";
+var entryString="0";
 
 function calculate(elem){
     document.querySelector("#result").value=""
